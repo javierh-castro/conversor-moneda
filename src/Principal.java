@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Principal {
@@ -6,11 +5,10 @@ public class Principal {
         Scanner lectura = new Scanner(System.in);
         ConsultarMoneda consulta = new ConsultarMoneda();
         System.out.println("Escriba el nombre de las iniciales de la moneda que quiere cotizar");
-        //Aca tengo que arreglar un error
         try {
-            var siglaDeMoneda = Integer.valueOf(lectura.nextLine());
-            Mondeda pelicula = consulta.buscarMoneda(siglaDeMoneda);
-            System.out.println(pelicula);
+            var siglaDeMoneda = lectura.nextLine();//Cambie de tipo a string
+            Moneda moneda = consulta.buscarMoneda(siglaDeMoneda);
+            System.out.println(moneda);
 //            GeneradorDeArchivo generador = new GeneradorDeArchivo();
 //            generador.guardarJson(pelicula);
         }catch (NumberFormatException e){
