@@ -3,11 +3,11 @@
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
 <h4 align="center">
-:construction: Proyecto en construcción :construction:
+Este proyecto soluciona la busqueda de las cotizaciones de cualquier moneda y te muestr el valor de el momento actual.
 </h4>
 
 ## 📁 Acceso al proyecto
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/javierh-castro/conversor-moneda
 
 ## 🛠️ Tecnologías utilizadas
 - Java
